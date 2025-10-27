@@ -4,7 +4,7 @@ import numpy as np
 import streamlit as st
 
 # Завантаження даних з CSV файлу
-df = pd.read_csv('input_data.csv')
+df = pd.read_csv('input_data.csv', encoding='utf-8')
 
 # Налаштування для відображення українського тексту
 plt.rcParams['font.family'] = 'DejaVu Sans'
